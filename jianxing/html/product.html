@@ -1,0 +1,226 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>建星航空光电 - 产品中心</title>
+        <link rel="stylesheet" href="../css/product.css">
+        <link rel="stylesheet" href="../css/header.css">
+        <link rel="stylesheet" href="../css/footer.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="../js/main.js"></script>
+
+        <header>
+            <div class="header-display">
+                <div class="phone-field">
+                    <div class="phone-pic">
+                        <img class="phone-img" src="../images/phone.png" alt="">
+                    </div>
+                    <div class="phone-num">
+                        +86 755-8242-2231
+                    </div>
+                </div>
+    
+                <div class="logo-company">
+                    <img class="logo-img" src="../images/logo.png" alt="">
+                    
+                </div>
+    
+                <div class="option-field">
+                    <div class="main-page">
+                        <a class="mainpage-a" href="main.html">首页</a>
+                    </div>
+                    <div class="product-center">
+                        <a class="productcenter-a" href="" style="color: red">产品中心</a>
+                    </div>
+                    <div class="performance">
+                        <a class="performance-a" href="">业绩</a>
+                    </div>
+                    <div class="certificated">
+                        <a class="certificated-a" href="">证书</a>
+                    </div>
+                    <div class="about">
+                        <a class="about-a" href="">关于我们</a>
+                    </div>
+                    <div class="contact">
+                        <a class="contact-a" href="">联系</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="search-container">
+                <button class="btn-search" type="submit"><i class="fa fa-search"></i></button>
+                <input class="btn-input" type="text" placeholder="搜索" name="search">
+            </div>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="cur-loc">您所在的位置 > 首页 > 产品中心 > 进近灯具系列 > 进近灯</div>
+        </header>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+        <section>
+            <div class="sub-title">产品中心</div>
+            <br>
+            <div class="product-body">
+                <div class="side-option">
+                    <div class="recent-light" onclick="extendOptions()" style="cursor:pointer;">进近灯具系列</div>
+                    <div id="recent-light-opts">
+                        <div class="r-light">进近灯</div>
+                        <div class="h-light">横排灯</div>
+                        <div class="s-light">侧边灯</div>
+                        <div id="flashlight" class="f-light" onclick="chooselight()" style="cursor:pointer;">顺序闪光灯</div>
+                        <div class="slo-light">坡度灯</div>
+                    </div>
+                    <div class="track-light">跑道灯具系列</div>
+                    <div class="slide-light">滑行道灯具系列</div>
+                    <div class="transformer">隔离变压器及附件</div>
+                    <div class="mark-board">标记牌</div>
+                </div>
+
+                <div class="product-option">
+                    <div id="search-by-kwd">
+                        <div class="search-kwd-title"><b>搜索关键词</b></div>
+                        <div class="certified-cl">
+                            <span class="sp-cl"><input id="selcet1" class="cer" type="checkbox" name="certified" value="icao" onclick="selectct1()">ICAO认证</span>
+                            <span class="sp-cl"><input id="selcet2" class="cer" type="checkbox" name="certified" value="faa" >FAA认证</span>
+                            <span class="sp-cl"><input id="selcet3" class="cer" type="checkbox" name="certified" value="lishi" >立式</span>
+                            <span class="sp-cl"><input id="selcet4" class="cer" type="checkbox" name="certified" value="qianrushi" >嵌入式</span>
+                        </div>
+                        <div class="source-cl">
+                            <span class="sp-cl"><input id="sells2" class="cer" type="checkbox" name="lightsource" value="lusu" onclick="selectls2()">卤素光源</span>
+                            <span class="sp-cl"><input id="sells3" class="cer" type="checkbox" name="lightsource" value="led" onclick="selectls3()">LED光源</span>
+                            <span class="sp-cl"><input id="sells4" class="cer" type="checkbox" name="lightsource" value="sunpower" onclick="selectls4()">太阳能</span>
+                        </div>
+                        <div class="light-cl">
+                            <span class="sp-cl"><input id="sellt1" class="cer" type="checkbox" name="light" value="whitelt" onclick="selectlt1()">白光</span>
+                            <span class="sp-cl"><input id="sellt2" class="cer" type="checkbox" name="light" value="yellowlt" onclick="selectlt2()">黄光</span>
+                            <span class="sp-cl"><input id="sellt3" class="cer" type="checkbox" name="light" value="greenlt" onclick="selectlt3()">绿光</span>
+                            <span class="sp-cl"><input id="sellt4" class="cer" type="checkbox" name="light" value="redlt" onclick="selectlt4()">红光</span>
+                            <span class="sp-cl"><input id="sellt5" class="cer" type="checkbox" name="light" value="bluelt" onclick="selectlt1()">蓝光</span>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+
+                    <div id="select-by-pic">
+                        <div id="product-pic1">
+                            <img class="product-img" src="../images/light3.png" alt="">
+                            <div class="light1-desc-detail">
+                                <div class="light1-desc">中光强交流航空障碍灯</div>
+                                <p class="light1-detail">
+                                    <div style="font-size:12px; margin-left: 10px;">
+                                         产品型号：JXZ-2000-JAM/ A型<br/>
+                                         全向白色闪光<br/>
+                                         闪光频率：20-60次/分钟<br/>
+                                         供电方式：ACV 220V 50Hz</div>
+                                </p>
+                            </div>
+                        </div>
+                        <div id="product-pic2">
+                            <img class="product-img" src="../images/light4.png" alt="">
+                            <div class="light1-desc-detail">
+                            <div class="light1-desc">顺序闪光灯</div>
+                                <p class="light1-detail">
+                                    <div style="font-size:12px; margin-left: 10px;">
+                                        产品型号：JXZ-2000<br/>
+                                        供电方式：ACV50Hz<br/>
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
+                        <div id="product-pic3">
+                            <img class="product-img" src="../images/light2.png" alt="">
+                            <div class="light1-desc-detail">
+                                <div class="light1-desc">高光强交流航空障碍灯</div>
+                                <p class="light1-detail">
+                                    <div style="font-size:12px; margin-left: 10px;">
+                                        产品型号：JXZ-2000-JBH/ B型<br/>
+                                        单向白光<br/>
+                                        闪光频率：40-60次/分钟<br/>
+                                        供电方式：ACV50Hz
+                                    </div>
+                                </p>
+                            </div>
+                            
+                        </div>
+                        <div id="product-pic4">
+                            <img class="product-img" src="../images/light1.png" alt="">
+                            <div class="light1-desc-detail">
+                                <div class="light1-desc">太阳能航空障碍灯</div>
+                                <p class="light1-detail">
+                                    <div style="font-size:12px; margin-left: 10px;">
+                                        产品型号：JXZ-2000-TBM/Z-3 B型<br/>
+                                        全向红色闪光<br/>
+                                        闪光频率：20-60次/分钟<br/>
+                                        太阳能电池：65w
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <div class="horizontal-bar"></div>
+
+            <div class="bottom-option-field">
+                <div class="bottom-main-page">
+                    <a class="mainpage-a" href="main.html">首页</a>
+                </div>
+                <div class="border-bar2"></div>
+                <div class="bottom-product-center">
+                    <a class="productcenter-a" href="" style="color: red">产品中心</a>
+                </div>
+                <div class="border-bar2"></div>
+                <div class="bottom-performance">
+                    <a class="performance-a" href="">业绩</a>
+                </div>
+                <div class="border-bar2"></div>
+                <div class="bottom-certificated">
+                    <a class="certificated-a" href="">证书</a>
+                </div>
+                <div class="border-bar2"></div>
+                <div class="bottom-about">
+                    <a class="about-a" href="">关于我们</a>
+                </div>
+                <div class="border-bar2"></div>
+                <div class="bottom-contact">
+                    <a class="contact-a" href="">联系</a>
+                </div>
+            </div>
+        </section>
+        <br>
+        <br>
+        <br>
+        <footer>
+            <div class="keep-parallel">
+                <div class="contact-footer">
+                    中国，广东省，深圳市，龙岗区 <br/><br/>
+                    华龙路华兴工业区7栋2F<br/><br/>
+                    电话  +86 755-8242-2231<br/><br/>
+                    邮箱  crwzsh@gmail.com
+                </div>
+                <img class="logo-img2" src="../images/logo.png" alt=""> 
+            </div>
+            
+            
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,108 @@
+header {
+    min-width: 1300px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+
+.header-display {
+    display: flex;
+    margin-left: 2%;
+    /* margin-right: 2%； */
+}
+.phone-field {
+    display: flex;
+    margin-top: 55px;
+    flex: 1 1 auto;
+    /* width: 30%; */
+}
+
+.phone-num {
+    margin-top: 4px;
+    margin-left: 1px;
+    color: #D13233;
+    font-family: Arial;
+
+}
+
+.logo-company {
+    margin-left: 30%;
+    margin-right: 20%;
+    flex: 1 1 auto;
+    /* margin-left: 520px; */
+    /* width: 40%; */
+    /* margin-left: 200px; */
+    /* background-image: url("../images/logo.png"), url("../images/cover.png");
+    background-blend-mode: darken; */
+}
+
+
+.option-field {
+    /* margin-left: 300px; */
+    margin-top: 55px;
+    /* width: 30%; */
+    /* margin-right: 100px; */
+    /* margin-left: 200px; */
+    font-family: Arial;
+    color: #D13233;
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.search-container {
+    margin-right: 1%;
+    float: right;
+    
+}
+
+.btn-input {
+    padding: 6px;
+    width: 100px;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    background: #e9e5e5;
+}
+
+
+.btn-search {
+    padding: 6px;
+    margin-right: 1px;
+    background: #f2f2f2;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-search:hover {
+    background: #ccc;
+}
+
+.btn-input:hover {
+    width: 360px;
+}
+
+.cur-loc {
+    color: #928f8f;
+    font-size: 12px;
+    margin-right: 1%;
+    float: right;
+}
+
+.light1 {
+    flex: 2 1 auto;
+}
+
+.light1-desc {
+    color: #D13233;
+    font-family: STXihei;
+}
+
+.light1-detail {
+    font-size: 12px;
+    font-family: STXihei;
+}
+.light1-desc, .light1-detail {
+    margin-left: 10px;
+    margin-top: 20px;
+}

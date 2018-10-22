@@ -1,0 +1,43 @@
+footer {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.contact-footer {
+    flex: 2 1 auto;
+    padding: 5px;
+    font-size: 15px;
+    font-family: STXihei;
+}
+
+.logo-img2 {
+    height: 80px;
+    width: 50px;
+}
+
+.keep-parallel {
+    display: flex;
+}
+
+.horizontal-bar {
+    border-top: 1px solid rgb(124, 123, 123);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.bottom-option-field {
+    margin-left: 5%;
+    margin-top: 55px;
+    margin-right: 100px;
+    /* margin-left: 200px; */
+    font-family: Arial;
+    color: #D13233;
+    display: flex;
+    font-size: 10px;
+}
+
+.border-bar2 {
+    border-left: solid 1px rgb(124, 123, 123);
+    margin-left: 20px;
+    margin-right: 20px;
+}

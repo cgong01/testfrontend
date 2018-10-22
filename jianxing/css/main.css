@@ -1,0 +1,159 @@
+body {
+    background-color: #f2f2f2;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+    min-width: 1300px;
+}
+
+.keep-parallel {
+    display: flex;
+}
+
+.product-center {
+    /* flex: 1 1 auto; */
+    margin-left: 30px;
+}
+
+.performance {
+    /* flex: 1 1 auto; */
+    margin-left: 30px;
+}
+
+.certificated {
+    /* flex: 1 1 auto; */
+    margin-left: 30px;
+}
+
+.about {
+    /* flex: 1 1 auto; */
+    margin-left: 30px;
+}
+
+.contact {
+    /* flex: 1 1 auto; */
+    margin-left: 30px;
+}
+
+a:link, a:visited { 
+    color: black;
+    text-decoration: none;
+    cursor: auto;
+}
+
+a:link:active, a:visited:active { 
+    color: red;
+}
+
+
+.lunbo {
+    height: 400px;
+    background: #081b33;
+}
+
+.lunbo-font-title {
+    text-align: center;
+    padding-top: 50px;
+    color: #D13233;
+}
+.lunbo-font-content {
+    margin-top: 100px;
+    font-family: STXihei;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+
+.product-show {
+    margin-left: 14%;
+    display: flex;
+}
+
+.recent-flashlight, .track-flashlight, .slide-flashlight, .transformer {
+    flex: 2 1 auto;
+}
+
+.rec-font, .track-font, .slide-font {
+    font-family: STXihei;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.trans-font {
+    font-family: STXihei;
+    margin-top: 10px;
+}
+
+.border-bar {
+    border-left: solid 1px rgb(124, 123, 123);
+    margin-right: 160px; 
+}
+
+
+
+
+.para {
+    padding: 150px;
+    display: flex;
+}
+
+.article-content {
+    flex: 2 1 auto;
+}
+
+.title {
+    font-size: 20px;
+    color: #D13233;
+    font-family: STXihei;
+    margin-left: 200px;
+}
+
+.contact-way {
+    font-size: 20px;
+    font-family: STXihei;
+    margin-left: 200px;
+}
+
+.contact-content {
+    flex: 2 1 auto;
+}
+
+.dizhi-font {
+    color: #D13233;
+    font-family: STXihei;
+    font-size: 13px;
+    margin-top: 6px;
+}
+
+.contact-detail {
+    margin-left: 60px;
+}
+
+
+
+.newproduct-show {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.newproduct-title {
+    /* padding-left: 10px; */
+    padding: 40px 10px;
+    font-family: STXihei;
+    font-size: 18px;
+}
+
+.newproduct-pic {
+    display: flex;
+}
+
+
+
+.knowmore {
+    border: 2px solid black;
+    margin: 40px;
+    margin-left: 80px;
+    padding: 15px 30px;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+}
+
